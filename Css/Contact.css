@@ -1,0 +1,165 @@
+.contactpagina {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2; 
+}
+
+.container-left{
+    position: relative;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.form{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #5ab960;
+    border: #5ab960 solid 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=email], input[type=text], select{
+    width: 93%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 0;
+    text-align: left;
+}
+
+input[type=submit]{
+    width: 33%;
+    margin-top: 6px;
+    background-color: #2a682f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+input[type=submit]:hover{
+    background-color: #245728;
+}
+
+.col-25 {
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75{
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+select{
+    width: 100%;
+}
+
+.contact{
+    position: relative;
+    background-color: #5ab960;
+    border: #5ab960 solid 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #5ab960;
+    border: 9px #5ab960 solid;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 4px 4px 4px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+legend{
+    margin: 2px 2px;
+    padding: 4px;
+}
+
+.openinghours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #5ab960;
+    border: 9px #5ab960 solid;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    margin: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.googlemaps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5ab960;
+    border: #5ab960 solid 9px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 30px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.openinghours table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.openinghours td {
+    text-align: center;
+    padding: 7px;
+}
+
+legend {
+    display: block;
+}

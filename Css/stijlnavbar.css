@@ -1,0 +1,152 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbartop{
+    text-align: center;
+    margin-top: 1vh;
+    transition: 1s;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+nav{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+#ultop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5AB960;
+    top: 0;
+    width: 100%;
+  }
+  
+  #litop {
+    border-right: 1px solid #bbb; 
+    display: inline-block;
+  }
+
+  #litop:first-child {
+    border-left:1px solid #bbb
+  }
+  
+  #login{
+    float: right;
+  }
+
+  #litop #atop {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #litop #atop:hover {
+    background-color: #c5af24;
+    transform: scale(1.15);
+  }
+
+  #Background{
+    padding-top: 0.5vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+
+a:link { 
+    text-decoration: none; }
+
+a:visited { 
+    text-decoration: none; 
+  }
+
+a:hover {
+     text-decoration: none; }
+
+a:active {
+     text-decoration: none;
+    }
+
+.active {
+    background-color: #c5af24;
+}
+
+body{
+  padding: 0;
+  margin: 1px;
+}
+
+header{
+  border: solid #5AB960 3px;
+  border-radius: 5px;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.logo{
+  position: relative;
+  left: 3vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.9vh;
+}
+
+.banner{
+  position: relative;
+  left: 15vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: #5AB960 solid 2px;
+  border-radius: 5px;
+}
+
+.yt{
+  position: relative;
+  left: 28vw;
+  bottom: 2.5vh;
+  margin: 18px 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.panda{
+  position: relative;
+  left: 23vw;
+  margin: 14px 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .banner{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .panda{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .yt{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  header{
+    display: none;
+  }
+}

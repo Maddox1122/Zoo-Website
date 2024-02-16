@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+footer{
+
+    background-color: #5ab960;
+    height: 35vh;
+    width: 96vw;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: #5ab960 3px solid;
+    border-radius: 5px;
+}
+
+.rechten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 1vw;
+    top: 5vh;
+    font-size: larger;
+    color: white;
+}
+.linkjes{
+    display: inline-block;
+    position: relative;
+    padding-left: 1vw;
+    top: 12.5vh;
+    left: 16.5vw;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkjes a{
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+}
+
+.linkjes a:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.plaatje{
+    position: relative;
+    top: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}

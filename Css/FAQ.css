@@ -1,0 +1,223 @@
+
+      body{
+        background: white;
+        padding-top: 20px;
+        font-family: monospace;
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: #5AB960;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      .faq-body{
+        display: none;
+        margin-top: 30px;
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: aliceblue;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+    * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        text-align: center;
+        margin-top: 30px;
+        float: left;
+        border: 5px solid white;
+        width: 33.33%;
+        padding: 15px;
+        height: 520px; 
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    #navbartop{
+        text-align: center;
+        margin-top: 1vh;
+        position: sticky;
+    }
+    
+    #ultop {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #5AB960;
+        position: sticky;
+        top: 0;
+        width: 100%;
+      }
+      
+      #litop {
+        border-right: 1px solid #bbb; 
+        display: inline-block;
+      }
+    
+      #litop:first-child {
+        border-left:1px solid #bbb
+      }
+      
+      #login{
+        float: right;
+      }
+    
+      #litop #atop {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      #litop #atop:hover {
+        background-color: #c5af24;
+      }
+    
+    a:link { 
+        text-decoration: none; }
+    
+    a:visited { 
+        text-decoration: none; 
+      }
+    
+    a:hover {
+         text-decoration: none; }
+    
+    a:active {
+         text-decoration: none;
+        }
+    
+    .active {
+        background-color: #c5af24;
+    }
+    
+    #navbarleft{
+      text-align: center;
+      float:left;
+      margin-top: 2vh;
+    }
+    
+    #ulleft {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #5AB960;
+      top: 0;
+      width: 100%;
+    }
+    
+    #lileft #aleft:hover {
+      background-color: #c5af24;
+    }
+    
+    #lileft #aleft {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      width: 19vw;
+    }
+    
+    #lileft {
+      border-bottom: 1px solid #bbb;
+    }
+    
+    #lileft:first-child {
+      border-top: 1px solid #bbb;
+    }
+    
+    
+    body{
+      padding: 0;
+      margin: 1px;
+    }
+    
+    header{
+      border: solid #04aa6d 3px;
+      width: 98.7vw;
+      margin: 0px 5px;
+    }
+    
+    
+    .logo{
+      position: relative;
+      left: 3vw;
+      margin-top: 0.5vh;
+      margin-bottom: 0.9vh;
+    }
+    .banner{
+      position: relative;
+      left: 15vw;
+      margin-top: 0.5vh;
+      margin-bottom: 1.5vh;
+    }
+    .yt{
+      position: relative;
+      left: 28vw;
+      bottom: 2.5vh;
+      margin: 18px 10px;
+    }
+    .panda{
+      position: relative;
+      left: 23vw;
+      margin: 14px 10px;
+    
+    }
+    
+    @Media only screen and (max-width: 522px) {
+      .banner {
+          width: 330px!important;
+      }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+      header {
+        width: 1100px;
+      }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+      #navbartop {
+        width: 1100px;
+      }
+    }
+    
+    
+    
+    
+    
+    
